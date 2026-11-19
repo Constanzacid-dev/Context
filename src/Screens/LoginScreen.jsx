@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../Components/Navbar/Navbar'
 
-export default function LoginScreen() {
-  return (
-    <div>
-        <h1>Inicio de Sesion</h1>
-    </div>
-  )
+export function LoginScreen() {
+    return (
+        <div>
+            <Navbar/>
+            <h1>Iniciar sesion</h1>
+        </div>
+    )
 }

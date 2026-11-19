@@ -1,9 +1,10 @@
-import React from 'react'
+import Navbar from "../Components/Navbar/Navbar";
 
 export default function HomeScreen() {
-  return (
-    <div>
-        <h1>Pantalla Principal</h1>
-    </div>
-  )
+    return (
+        <div>
+            <Navbar/>
+            <h1>Pantalla principal</h1>
+        </div>
+    )
 }
