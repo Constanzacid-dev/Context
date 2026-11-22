@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Navbar from '../Components/Navbar/Navbar'
+import { ContactContext } from '../Context/ContactContext'
 
 export function LoginScreen() {
+
+    //usar el contexto
+
+   const result = useContext(ContactContext)
+
+   console.log(result.contacts)
     return (
         <div>
             <Navbar/>

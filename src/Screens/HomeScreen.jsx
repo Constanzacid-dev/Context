@@ -1,10 +1,11 @@
 import Navbar from "../Components/Navbar/Navbar";
+import Sidebar from "../Components/Sidebar/Sidebar";
 
 export default function HomeScreen() {
     return (
         <div>
-            <Navbar/>
-            <h1>Pantalla principal</h1>
+            <Sidebar/>
+            
         </div>
     )
 }
